@@ -8,8 +8,8 @@ Template from <https://github.com/Rahix/avr-hal-template>.
 
 ## Requirements
 
-- Rust toolchain nightly-2025-04-27
-- ravedude 0.2.2
+- [Rust toolchain `nightly-2025-04-27`](https://rust-lang.github.io/rustup/concepts/channels.html)
+- [`ravedude` 0.2.2](https://github.com/Rahix/avr-hal/tree/main/ravedude)
 
 ## Build Instructions
 
@@ -18,14 +18,11 @@ Template from <https://github.com/Rahix/avr-hal-template>.
 2. Run `cargo build --release` to build the firmware.
 
 3. Run `cargo run --release` to flash the firmware to a connected board.  If `ravedude`
-   fails to detect your board, check its documentation at
-   <https://crates.io/crates/ravedude>.
+   fails to detect your board, check its documentation at <https://crates.io/crates/ravedude>.
 
 4. `ravedude` will open a console session after flashing where you can interact
    with the UART console of your board.
 
-`ravedude`: https://github.com/Rahix/avr-hal/tree/main/ravedude
-
 ## License
 
-MIT license ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>)
+MIT license ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>).
